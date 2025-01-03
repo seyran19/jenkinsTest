@@ -11,6 +11,7 @@ pipeline {
                 echo "Start of Stage Build..."
                 echo "Building......."
                 echo "End of Stage Build..."
+                cat "tests.txt"
             }
         }
         stage('2-Test') {
